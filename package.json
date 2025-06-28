@@ -79,13 +79,13 @@
     "arm64"
   ],
   "peerDependencies": {
-    "react": ">=18.0.0",
-    "react-native": ">=0.74.0",
+    "react": ">=19.0.0",
+    "react-native": ">=0.79.4",
     "react-native-safe-area-context": ">=4.0.0"
   },
   "devDependencies": {
-    "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
     "typescript": "^5.8.3"
   },
   "publishConfig": {
