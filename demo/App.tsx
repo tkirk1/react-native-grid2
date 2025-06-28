@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, ScrollView } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
-import { BreakpointProvider, Grid } from './src/components/Grid';
+import { BreakpointProvider, Grid } from '@tkirk1/react-native-grid2';
 
 export type DemoScreen = 'cards' | 'dashboard' | 'table';
 

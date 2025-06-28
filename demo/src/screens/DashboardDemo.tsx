@@ -1,6 +1,6 @@
 import React from 'react';
 import { ScrollView, View, Text } from 'react-native';
-import { Grid } from '../components/Grid';
+import { Grid } from '@tkirk1/react-native-grid2';
 import { styles } from '../styles/styles';
 
 interface MetricCardProps {
