@@ -1,0 +1,1 @@
+{"version":3,"file":"styleCache.d.ts","sourceRoot":"","sources":["../../src/utils/styleCache.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,aAAa,EAAE,MAAM,UAAU,CAAC;AAKzC;;GAEG;AACH,eAAO,MAAM,aAAa,GACxB,MAAM,MAAM,EACZ,SAAS,MAAM,EACf,eAAe,MAAM,EACrB,YAAY,MAAM,EAClB,WAAW,aAAa,QAiCzB,CAAC;AAEF;;GAEG;AACH,eAAO,MAAM,eAAe,YAE3B,CAAC;AAEF;;GAEG;AACH,eAAO,MAAM,iBAAiB,cAE7B,CAAC"}

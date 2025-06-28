@@ -1,0 +1,48 @@
+<svg width="600" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #333; }
+      .card { fill: #e3f2fd; stroke: #2196f3; stroke-width: 1; rx: 4; }
+      .code { font-family: monospace; font-size: 10px; fill: #666; }
+      .device { font-family: Arial, sans-serif; font-size: 9px; fill: #999; }
+    </style>
+  </defs>
+  
+  <text x="300" y="20" class="title" text-anchor="middle">MUI Grid v2 for React Native - Responsive Demo</text>
+  
+  <!-- Mobile Layout -->
+  <text x="20" y="40" class="device">📱 Mobile</text>
+  <rect x="20" y="50" width="120" height="30" class="card"/>
+  <text x="80" y="67" class="code" text-anchor="middle">xs: 12</text>
+  <rect x="20" y="85" width="120" height="30" class="card"/>
+  <text x="80" y="102" class="code" text-anchor="middle">xs: 12</text>
+  
+  <!-- Tablet Layout -->
+  <text x="180" y="40" class="device">📱 Tablet</text>
+  <rect x="180" y="50" width="55" height="30" class="card"/>
+  <text x="207" y="67" class="code" text-anchor="middle">md: 6</text>
+  <rect x="240" y="50" width="55" height="30" class="card"/>
+  <text x="267" y="67" class="code" text-anchor="middle">md: 6</text>
+  <rect x="180" y="85" width="115" height="30" class="card"/>
+  <text x="237" y="102" class="code" text-anchor="middle">md: 12</text>
+  
+  <!-- Desktop Layout -->
+  <text x="340" y="40" class="device">💻 Desktop</text>
+  <rect x="340" y="50" width="35" height="30" class="card"/>
+  <text x="357" y="67" class="code" text-anchor="middle">lg: 4</text>
+  <rect x="380" y="50" width="35" height="30" class="card"/>
+  <text x="397" y="67" class="code" text-anchor="middle">lg: 4</text>
+  <rect x="420" y="50" width="35" height="30" class="card"/>
+  <text x="437" y="67" class="code" text-anchor="middle">lg: 4</text>
+  
+  <!-- Code Example -->
+  <rect x="20" y="130" width="560" height="60" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1" rx="4"/>
+  <text x="30" y="145" class="code">&lt;Grid container spacing={2}&gt;</text>
+  <text x="40" y="160" class="code">&lt;Grid size={{ xs: 12, md: 6, lg: 4 }}&gt;</text>
+  <text x="50" y="175" class="code">&lt;YourComponent /&gt;</text>
+  <text x="40" y="190" class="code">&lt;/Grid&gt;</text>
+  <text x="30" y="205" class="code">&lt;/Grid&gt;</text>
+  
+  <text x="300" y="160" class="code" text-anchor="middle">// Identical to MUI Grid v2 API</text>
+  <text x="300" y="175" class="code" text-anchor="middle">// Cross-platform: iOS, Android, Web</text>
+</svg>

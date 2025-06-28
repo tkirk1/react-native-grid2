@@ -1,0 +1,109 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; fill: #333; }
+      .subtitle { font-family: Arial, sans-serif; font-size: 14px; fill: #666; }
+      .card { fill: #f5f5f5; stroke: #ddd; stroke-width: 1; rx: 8; }
+      .card-text { font-family: Arial, sans-serif; font-size: 12px; fill: #333; text-anchor: middle; }
+      .breakpoint { font-family: monospace; font-size: 11px; fill: #2196f3; font-weight: bold; }
+      .device { font-family: Arial, sans-serif; font-size: 10px; fill: #999; }
+    </style>
+  </defs>
+  
+  <!-- Header -->
+  <text x="400" y="30" class="title" text-anchor="middle">React Native Grid2 - Responsive Demos</text>
+  <text x="400" y="50" class="subtitle" text-anchor="middle">MUI Grid v2 Compatible | Cross-Platform</text>
+  
+  <!-- Mobile Layout (xs) -->
+  <text x="50" y="90" class="device">📱 Mobile (xs)</text>
+  <text x="50" y="105" class="breakpoint">size={{ xs: 12 }}</text>
+  
+  <rect x="50" y="120" width="200" height="60" class="card"/>
+  <text x="150" y="140" class="card-text">Card 1</text>
+  <text x="150" y="155" class="card-text">Full Width</text>
+  <text x="150" y="170" class="card-text">xs: 12 columns</text>
+  
+  <rect x="50" y="190" width="200" height="60" class="card"/>
+  <text x="150" y="210" class="card-text">Card 2</text>
+  <text x="150" y="225" class="card-text">Full Width</text>
+  <text x="150" y="240" class="card-text">xs: 12 columns</text>
+  
+  <rect x="50" y="260" width="200" height="60" class="card"/>
+  <text x="150" y="280" class="card-text">Card 3</text>
+  <text x="150" y="295" class="card-text">Full Width</text>
+  <text x="150" y="310" class="card-text">xs: 12 columns</text>
+  
+  <!-- Tablet Layout (md) -->
+  <text x="300" y="90" class="device">📱 Tablet (md)</text>
+  <text x="300" y="105" class="breakpoint">size={{ xs: 12, md: 6 }}</text>
+  
+  <rect x="300" y="120" width="95" height="60" class="card"/>
+  <text x="347" y="140" class="card-text">Card 1</text>
+  <text x="347" y="155" class="card-text">Half Width</text>
+  <text x="347" y="170" class="card-text">md: 6 cols</text>
+  
+  <rect x="405" y="120" width="95" height="60" class="card"/>
+  <text x="452" y="140" class="card-text">Card 2</text>
+  <text x="452" y="155" class="card-text">Half Width</text>
+  <text x="452" y="170" class="card-text">md: 6 cols</text>
+  
+  <rect x="300" y="190" width="200" height="60" class="card"/>
+  <text x="400" y="210" class="card-text">Card 3</text>
+  <text x="400" y="225" class="card-text">Full Width</text>
+  <text x="400" y="240" class="card-text">md: 12 columns</text>
+  
+  <!-- Desktop Layout (lg) -->
+  <text x="550" y="90" class="device">💻 Desktop (lg)</text>
+  <text x="550" y="105" class="breakpoint">size={{ xs: 12, md: 6, lg: 4 }}</text>
+  
+  <rect x="550" y="120" width="60" height="60" class="card"/>
+  <text x="580" y="140" class="card-text">Card 1</text>
+  <text x="580" y="155" class="card-text">1/3</text>
+  <text x="580" y="170" class="card-text">lg: 4</text>
+  
+  <rect x="620" y="120" width="60" height="60" class="card"/>
+  <text x="650" y="140" class="card-text">Card 2</text>
+  <text x="650" y="155" class="card-text">1/3</text>
+  <text x="650" y="170" class="card-text">lg: 4</text>
+  
+  <rect x="690" y="120" width="60" height="60" class="card"/>
+  <text x="720" y="140" class="card-text">Card 3</text>
+  <text x="720" y="155" class="card-text">1/3</text>
+  <text x="720" y="170" class="card-text">lg: 4</text>
+  
+  <!-- Code Example -->
+  <rect x="50" y="350" width="700" height="200" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1" rx="8"/>
+  <text x="70" y="375" class="subtitle">Code Example:</text>
+  
+  <text x="70" y="395" style="font-family: monospace; font-size: 11px; fill: #d73a49;">&lt;Grid</text>
+  <text x="115" y="395" style="font-family: monospace; font-size: 11px; fill: #6f42c1;">container</text>
+  <text x="175" y="395" style="font-family: monospace; font-size: 11px; fill: #6f42c1;">spacing</text>
+  <text x="225" y="395" style="font-family: monospace; font-size: 11px; fill: #333;">=</text>
+  <text x="235" y="395" style="font-family: monospace; font-size: 11px; fill: #032f62;">{2}</text>
+  <text x="260" y="395" style="font-family: monospace; font-size: 11px; fill: #d73a49;">&gt;</text>
+  
+  <text x="90" y="415" style="font-family: monospace; font-size: 11px; fill: #d73a49;">&lt;Grid</text>
+  <text x="135" y="415" style="font-family: monospace; font-size: 11px; fill: #6f42c1;">size</text>
+  <text x="165" y="415" style="font-family: monospace; font-size: 11px; fill: #333;">=</text>
+  <text x="175" y="415" style="font-family: monospace; font-size: 11px; fill: #032f62;">{{ xs: 12, md: 6, lg: 4 }}</text>
+  <text x="320" y="415" style="font-family: monospace; font-size: 11px; fill: #d73a49;">&gt;</text>
+  
+  <text x="110" y="435" style="font-family: monospace; font-size: 11px; fill: #d73a49;">&lt;View</text>
+  <text x="150" y="435" style="font-family: monospace; font-size: 11px; fill: #6f42c1;">style</text>
+  <text x="180" y="435" style="font-family: monospace; font-size: 11px; fill: #333;">=</text>
+  <text x="190" y="435" style="font-family: monospace; font-size: 11px; fill: #032f62;">{styles.card}</text>
+  <text x="275" y="435" style="font-family: monospace; font-size: 11px; fill: #d73a49;">&gt;</text>
+  
+  <text x="130" y="455" style="font-family: monospace; font-size: 11px; fill: #d73a49;">&lt;Text&gt;</text>
+  <text x="180" y="455" style="font-family: monospace; font-size: 11px; fill: #333;">Responsive Card</text>
+  <text x="285" y="455" style="font-family: monospace; font-size: 11px; fill: #d73a49;">&lt;/Text&gt;</text>
+  
+  <text x="110" y="475" style="font-family: monospace; font-size: 11px; fill: #d73a49;">&lt;/View&gt;</text>
+  
+  <text x="90" y="495" style="font-family: monospace; font-size: 11px; fill: #d73a49;">&lt;/Grid&gt;</text>
+  
+  <text x="50" y="515" style="font-family: monospace; font-size: 11px; fill: #d73a49;">&lt;/Grid&gt;</text>
+  
+  <!-- Features -->
+  <text x="400" y="570" class="subtitle" text-anchor="middle">✓ MUI Grid v2 API Compatible  ✓ TypeScript Support  ✓ Cross-Platform (iOS, Android, Web)</text>
+</svg>

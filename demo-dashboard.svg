@@ -1,0 +1,116 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; fill: #333; }
+      .subtitle { font-family: Arial, sans-serif; font-size: 14px; fill: #666; }
+      .card { fill: #ffffff; stroke: #e0e0e0; stroke-width: 1; rx: 8; }
+      .metric-card { fill: #f8f9fa; stroke: #dee2e6; stroke-width: 1; rx: 8; }
+      .chart-card { fill: #e3f2fd; stroke: #bbdefb; stroke-width: 1; rx: 8; }
+      .card-title { font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; fill: #333; }
+      .card-value { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #2196f3; }
+      .card-change { font-family: Arial, sans-serif; font-size: 10px; fill: #4caf50; }
+      .breakpoint { font-family: monospace; font-size: 11px; fill: #6c757d; }
+      .grid-label { font-family: Arial, sans-serif; font-size: 10px; fill: #999; }
+    </style>
+  </defs>
+  
+  <!-- Header -->
+  <text x="400" y="30" class="title" text-anchor="middle">Dashboard Layout Demo</text>
+  <text x="400" y="50" class="subtitle" text-anchor="middle">MUI Grid v2 API - Responsive Dashboard Components</text>
+  
+  <!-- Grid Structure Labels -->
+  <text x="50" y="80" class="breakpoint">Container: spacing={2}</text>
+  
+  <!-- Top Metrics Row -->
+  <text x="50" y="100" class="grid-label">Metrics Row: size={{ xs: 12, sm: 6, md: 3 }}</text>
+  
+  <!-- Metric Card 1 -->
+  <rect x="50" y="110" width="170" height="80" class="metric-card"/>
+  <text x="60" y="125" class="card-title">Total Sales</text>
+  <text x="60" y="145" class="card-value">$24,567</text>
+  <text x="60" y="160" class="card-change">+12.5%</text>
+  <text x="60" y="175" class="grid-label">xs:12 sm:6 md:3</text>
+  
+  <!-- Metric Card 2 -->
+  <rect x="230" y="110" width="170" height="80" class="metric-card"/>
+  <text x="240" y="125" class="card-title">New Users</text>
+  <text x="240" y="145" class="card-value">1,234</text>
+  <text x="240" y="160" class="card-change">+8.2%</text>
+  <text x="240" y="175" class="grid-label">xs:12 sm:6 md:3</text>
+  
+  <!-- Metric Card 3 -->
+  <rect x="410" y="110" width="170" height="80" class="metric-card"/>
+  <text x="420" y="125" class="card-title">Conversion</text>
+  <text x="420" y="145" class="card-value">3.45%</text>
+  <text x="420" y="160" class="card-change">+2.1%</text>
+  <text x="420" y="175" class="grid-label">xs:12 sm:6 md:3</text>
+  
+  <!-- Metric Card 4 -->
+  <rect x="590" y="110" width="170" height="80" class="metric-card"/>
+  <text x="600" y="125" class="card-title">Revenue</text>
+  <text x="600" y="145" class="card-value">$56.7K</text>
+  <text x="600" y="160" class="card-change">+15.3%</text>
+  <text x="600" y="175" class="grid-label">xs:12 sm:6 md:3</text>
+  
+  <!-- Charts Row -->
+  <text x="50" y="220" class="grid-label">Charts Row: Main Chart (md:8) + Side Panel (md:4)</text>
+  
+  <!-- Main Chart -->
+  <rect x="50" y="230" width="490" height="180" class="chart-card"/>
+  <text x="60" y="250" class="card-title">Sales Analytics</text>
+  
+  <!-- Simple chart visualization -->
+  <polyline points="70,350 120,320 170,300 220,280 270,290 320,260 370,240 420,220 470,200 520,180"
+            fill="none" stroke="#2196f3" stroke-width="2"/>
+  <circle cx="70" cy="350" r="3" fill="#2196f3"/>
+  <circle cx="170" cy="300" r="3" fill="#2196f3"/>
+  <circle cx="270" cy="290" r="3" fill="#2196f3"/>
+  <circle cx="370" cy="240" r="3" fill="#2196f3"/>
+  <circle cx="470" cy="200" r="3" fill="#2196f3"/>
+  <circle cx="520" cy="180" r="3" fill="#2196f3"/>
+  
+  <text x="60" y="390" class="grid-label">size={{ xs: 12, md: 8 }}</text>
+  
+  <!-- Side Panel -->
+  <rect x="560" y="230" width="200" height="180" class="card"/>
+  <text x="570" y="250" class="card-title">Recent Activity</text>
+  
+  <!-- Activity items -->
+  <rect x="570" y="260" width="180" height="25" fill="#f5f5f5" rx="4"/>
+  <text x="575" y="275" style="font-family: Arial; font-size: 10px; fill: #666;">New order #1234</text>
+  <text x="720" y="275" style="font-family: Arial; font-size: 9px; fill: #999;">2m ago</text>
+  
+  <rect x="570" y="290" width="180" height="25" fill="#f5f5f5" rx="4"/>
+  <text x="575" y="305" style="font-family: Arial; font-size: 10px; fill: #666;">User signup</text>
+  <text x="720" y="305" style="font-family: Arial; font-size: 9px; fill: #999;">5m ago</text>
+  
+  <rect x="570" y="320" width="180" height="25" fill="#f5f5f5" rx="4"/>
+  <text x="575" y="335" style="font-family: Arial; font-size: 10px; fill: #666;">Payment received</text>
+  <text x="720" y="335" style="font-family: Arial; font-size: 9px; fill: #999;">12m ago</text>
+  
+  <text x="570" y="390" class="grid-label">size={{ xs: 12, md: 4 }}</text>
+  
+  <!-- Code Example -->
+  <rect x="50" y="430" width="710" height="50" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1" rx="4"/>
+  
+  <text x="60" y="445" style="font-family: monospace; font-size: 10px; fill: #d73a49;">&lt;Grid</text>
+  <text x="95" y="445" style="font-family: monospace; font-size: 10px; fill: #6f42c1;">container</text>
+  <text x="145" y="445" style="font-family: monospace; font-size: 10px; fill: #6f42c1;">spacing</text>
+  <text x="185" y="445" style="font-family: monospace; font-size: 10px; fill: #032f62;">{2}</text>
+  <text x="205" y="445" style="font-family: monospace; font-size: 10px; fill: #d73a49;">&gt;</text>
+  
+  <text x="80" y="460" style="font-family: monospace; font-size: 10px; fill: #d73a49;">&lt;Grid</text>
+  <text x="115" y="460" style="font-family: monospace; font-size: 10px; fill: #6f42c1;">size</text>
+  <text x="140" y="460" style="font-family: monospace; font-size: 10px; fill: #032f62;">{{ xs: 12, sm: 6, md: 3 }}</text>
+  <text x="255" y="460" style="font-family: monospace; font-size: 10px; fill: #d73a49;">&gt;&lt;MetricCard /&gt;&lt;/Grid&gt;</text>
+  <text x="400" y="460" style="font-family: monospace; font-size: 10px; fill: #6c757d;">/* 4 metric cards */</text>
+  
+  <text x="80" y="470" style="font-family: monospace; font-size: 10px; fill: #d73a49;">&lt;Grid</text>
+  <text x="115" y="470" style="font-family: monospace; font-size: 10px; fill: #6f42c1;">size</text>
+  <text x="140" y="470" style="font-family: monospace; font-size: 10px; fill: #032f62;">={{ xs: 12, md: 8 }}</text>
+  <text x="235" y="470" style="font-family: monospace; font-size: 10px; fill: #d73a49;">&gt;&lt;ChartCard /&gt;&lt;/Grid&gt;</text>
+  <text x="350" y="470" style="font-family: monospace; font-size: 10px; fill: #d73a49;">&lt;Grid</text>
+  <text x="385" y="470" style="font-family: monospace; font-size: 10px; fill: #6f42c1;">size</text>
+  <text x="410" y="470" style="font-family: monospace; font-size: 10px; fill: #032f62;">={{ xs: 12, md: 4 }}</text>
+  <text x="505" y="470" style="font-family: monospace; font-size: 10px; fill: #d73a49;">&gt;&lt;ActivityPanel /&gt;&lt;/Grid&gt;</text>
+</svg>

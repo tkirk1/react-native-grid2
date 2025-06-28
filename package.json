@@ -1,0 +1,94 @@
+{
+  "name": "@tkirk1/react-native-grid2",
+  "version": "1.0.8",
+  "description": "Cross-platform MUI Grid v2 implementation for React Native. Drop-in replacement for Material-UI Grid with breakpoint-aware responsive layouts, TypeScript support, and mobile-first design.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/",
+    "README.md",
+    "demo-responsive.svg",
+    "demo-dashboard.svg"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf lib/",
+    "prepare": "npm run clean && npm run build",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mui-grid",
+    "material-ui-grid",
+    "mui-grid-v2",
+    "mui-grid-alternative",
+    "cross-platform-mui",
+    "react-native-mui",
+    "material-ui-mobile",
+    "mui-replacement",
+    "mui-clone",
+    "drop-in-replacement",
+    "react-native",
+    "grid",
+    "responsive",
+    "breakpoints",
+    "layout",
+    "mui",
+    "material-ui",
+    "flexbox",
+    "css-grid",
+    "typescript",
+    "mobile-first",
+    "responsive-design",
+    "grid-system",
+    "react-native-web",
+    "expo",
+    "ios",
+    "android",
+    "web",
+    "cross-platform",
+    "universal-app"
+  ],
+  "author": {
+    "name": "tkirk1",
+    "email": "tkirk1@users.noreply.github.com"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/tkirk1"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tkirk1/react-native-grid2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tkirk1/react-native-grid2/issues"
+  },
+  "homepage": "https://github.com/tkirk1/react-native-grid2#readme",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ],
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-native": ">=0.74.0",
+    "react-native-safe-area-context": ">=4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "typescript": "^5.8.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
