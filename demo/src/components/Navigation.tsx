@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { Grid } from '@tkirk1/react-native-grid2';
+import { Grid } from './Grid';
 import { styles } from '../styles/styles';
 import type { DemoScreen } from '../../App';
 
