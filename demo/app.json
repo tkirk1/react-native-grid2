@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Grid2 Example",
+    "slug": "react-native-grid2-example",
+    "version": "1.0.0",
+    "orientation": "default",
+    "sdkVersion": "53.0.0",
+    "platforms": ["ios", "android", "web"],
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#4F46E5",
+    "primaryColor": "#4F46E5",
+    "splash": {
+      "backgroundColor": "#4F46E5",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "backgroundColor": "#4F46E5"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
