@@ -1,6 +1,6 @@
 {
   "name": "@tkirk1/react-native-grid2",
-  "version": "1.0.16",
+  "version": "1.0.25",
   "description": "Cross-platform MUI Grid v2 implementation for React Native. Drop-in replacement for Material-UI Grid with breakpoint-aware responsive layouts, TypeScript support, and mobile-first design.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
